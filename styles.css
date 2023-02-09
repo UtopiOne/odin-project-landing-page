@@ -89,3 +89,41 @@ img {
     width: 100%;
     margin: 50px;
 }
+
+.row {
+    display: flex;
+}
+
+#header-two {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 1000;
+    margin-bottom: 30px;
+}
+
+.column {
+    justify-content: space-between;
+}
+
+.box {
+    flex: auto;
+    border: 2px solid #3882F6;
+    padding: 100px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.image-text {
+    text-align: center;
+    color: #1F2937;
+    padding-bottom: 20px;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+
+}
