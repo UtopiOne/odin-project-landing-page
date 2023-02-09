@@ -151,6 +151,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 10px;
     align-items: center;
 }
 
@@ -164,11 +165,13 @@ img {
 }
 
 .call-to-button {
+    flex: 1;
     background-color: #3882F6;
     border: 2px solid white;
     border-radius: 10px;
     width: 125px;
     color: white;
+    align-items: end;
 }
 
 .section-five {
