@@ -92,6 +92,8 @@ img {
 
 .row {
     display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #header-two {
@@ -101,21 +103,25 @@ img {
     margin-bottom: 30px;
 }
 
-.column {
-    justify-content: space-between;
+.columns {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
 
 .box {
-    flex: auto;
     border: 2px solid #3882F6;
-    padding: 100px;
+    padding: 90px;
     margin: 20px;
     border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 30px
 }
 
 .image-text {
     text-align: center;
     color: #1F2937;
+    margin: 20px;
     padding-bottom: 20px;
 }
 
@@ -125,5 +131,17 @@ img {
 
 .quote {
     font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+    padding: 30px;
+}
 
+.author {
+    text-align: right;
+    color: #1F2937;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    font-weight: bold;
 }
