@@ -170,3 +170,13 @@ img {
     width: 125px;
     color: white;
 }
+
+.section-five {
+    padding: 30px;
+    background-color: #1F2937;
+}
+
+.copyright-text {
+    text-align: center;
+    color: #E5E7EB;
+}
